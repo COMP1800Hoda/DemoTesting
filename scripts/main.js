@@ -94,7 +94,7 @@ function displayCardsDynamically(collection) {
                 newcard.querySelector('.card-title').innerHTML = title;
                 newcard.querySelector('.card-length').innerHTML = hikeLength +"km";
                 newcard.querySelector('.card-text').innerHTML = details;
-                newcard.querySelector('.link-primary').onclick = () => setHikeData(hikeCode)
+                // newcard.querySelector('.link-primary').onclick = () => setHikeData(hikeCode)
                 newcard.querySelector('.card-image').src = `./images/${hikeCode}.jpg`; //Example: NV01.jpg
                 newcard.querySelector('.read-more').href = "hike.html?id="+docID; 
                 //attach to gallery, Example: "hikes-go-here"
